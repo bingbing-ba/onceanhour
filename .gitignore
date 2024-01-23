@@ -67,3 +67,5 @@ node_modules/
 
 *.pem
 key.json
+
+.DS_Store
