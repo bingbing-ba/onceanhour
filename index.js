@@ -2,6 +2,7 @@ import express from 'express';
 import logger from './logger.js';
 
 const app = express();
+process.send = process.send || function () {};
 
 app.get('/', (req, res) => {
   const now = new Date();
